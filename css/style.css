@@ -4,3 +4,71 @@
   padding:0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(51, 71, 91);
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.container-width {
+ margin:auto;
+ width:80%;
+}
+/* NAV 1 */
+
+.nav-1 {
+  position:relative;
+  height: 8vh;
+  width: 100%;
+  background-color: rgb(245, 248, 250);
+  border-bottom: 2px ridge rgb(51, 71, 91);
+}
+/* PRIMA COLONNA */
+.col-nav-1 {
+  position: absolute;
+  height:100%;
+  top:40%;
+}
+
+#globe, .language, #contact-us {
+float:left;
+}
+
+.language {
+text-decoration:none;
+background-color:transparent;
+border:none;
+margin-left: 5px;
+}
+
+div.vertical-line {
+ margin-right: 20px;
+ margin-left: 20px;
+ width: 2px;
+ background-color: gray;
+ height: 25%;
+ float: left;
+}
+
+#contact-us a {
+  font-size: 15px;
+}
+
+ul li {
+  list-style-type: none;
+}
+li a {
+text-decoration: none;
+}
+
+a:link, a:visited {
+color: rgb(51, 71, 91);
+}
+/* /PRIMA COLONNA */
+/* /NAV 1 */
