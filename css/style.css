@@ -208,11 +208,51 @@ color: rgb(51, 71, 91);
  top: 80%;
 }
 /* /testo hero */
-.row-bottom-hero {
+#row-bottom-hero {
   border-top: 2px solid rgb(51, 71, 91);
   border-bottom: 3px solid rgb(51, 71, 91);
   height:7vh;
   background-color: #a3efe0;
+
 }
 
 /* /HERO */
+ /* MAIN */
+ /* first main */
+
+ #first-main {
+   height:300vh;
+   background-color: aliceblue;
+   width:100%;
+ }
+
+/* div cube */
+ .cube {
+   position: relative;
+   height: 50vh;
+ }
+
+.cube h2 {
+  position:relative;
+  top:75%;
+  left:31%;
+  font-size: 30px;
+}
+
+.cube img {
+  height:30vh;
+  position:absolute;
+  top:12%;
+  left:35%;
+  margin-bottom: 30px;
+}
+
+.cube p {
+  position: absolute;
+  width: 60%;
+  line-height: 30px;
+  text-align: center;
+  left:18%;
+  top:90%;
+}
+/* /div cube */
