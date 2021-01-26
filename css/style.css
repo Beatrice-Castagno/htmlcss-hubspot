@@ -25,6 +25,35 @@ header {
  margin:auto;
  width:80%;
 }
+/* BUTTONS */
+.all-buttons-orange li a {
+  border-radius: 6px;
+  padding: 25px 40px;
+}
+
+#button-login a {
+  border: 2px solid rgb(255, 122, 89);
+  padding: 12px;
+  border-radius: 6px;
+  background-color: white;
+  color: rgb(255, 122, 89);
+  margin-right: 30px;
+}
+
+.buttons-orange li a {
+  color: white;
+  background-color: rgb(255, 122, 89);
+}
+#button-nav-orange li a {
+  border-radius: 6px;
+  padding: 13px 15px;
+}
+
+#button-hero {
+  position: absolute;
+  top:60%;
+}
+/* /BUTTONS */
 /* NAV 1 */
 /* PRIMA COLONNA */
 #nav-1 {
@@ -51,7 +80,7 @@ header {
 .vertical-line,
 #search,
 #button-login,
-.buttons-orange {
+#button-nav-orange {
 float:left;
 }
 
@@ -105,22 +134,6 @@ color: rgb(51, 71, 91);
   font-size: 20px;
   color:deepskyblue;
 }
-
-#button-login a {
-  border: 2px solid rgb(255, 122, 89);
-  padding: 12px;
-  border-radius: 6px;
-  background-color: white;
-  color: rgb(255, 122, 89);
-  margin-right: 30px;
-}
-
-.buttons-orange li a {
-  color: white;
-  background-color: rgb(255, 122, 89);
-  border-radius: 6px;
-  padding: 13px 15px;
-}
 /* /NAV 1 */
 /* NAV 2 */
 #nav-2 {
@@ -130,7 +143,7 @@ color: rgb(51, 71, 91);
 
 #logo-hubspot {
   position: relative;
-  top:20%;
+  top:25%;
   float: left;
   width:50%;
 }
@@ -155,6 +168,51 @@ color: rgb(51, 71, 91);
   margin-left: 8px;
   font-size: 15px;
 }
-
-
 /*  /NAV 2 */
+/* HERO */
+
+#section-hero {
+ height:75vh;
+ width: 100%;
+ position: relative;
+ background-image: url("../img/jumbotron.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+/* testo hero */
+
+#title-hero {
+  height: 60vh;
+  position: relative;
+}
+
+#title-hero h1 {
+  position: absolute;
+  font-size: 40px;
+  top: 20%;
+  width: 35%;
+  transform: translateY(-50%);
+}
+
+#title-hero p {
+  position: absolute;
+  font-size: 18px;
+  width: 50%;
+  top: 35%;
+  line-height: 30px;
+}
+
+#span-hero {
+ position: absolute;
+ top: 80%;
+}
+/* /testo hero */
+.row-bottom-hero {
+  border-top: 2px solid rgb(51, 71, 91);
+  border-bottom: 3px solid rgb(51, 71, 91);
+  height:7vh;
+  background-color: #a3efe0;
+}
+
+/* /HERO */
