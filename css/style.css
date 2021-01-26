@@ -25,10 +25,17 @@ header {
  margin:auto;
  width:80%;
 }
+
+p {
+  line-height: 30px;
+}
+
 /* BUTTONS */
 .all-buttons-orange li a {
   border-radius: 6px;
   padding: 25px 40px;
+  color: white;
+  background-color: rgb(255, 122, 89);
 }
 
 #button-login a {
@@ -40,11 +47,9 @@ header {
   margin-right: 30px;
 }
 
-.buttons-orange li a {
+#button-nav-orange li a {
   color: white;
   background-color: rgb(255, 122, 89);
-}
-#button-nav-orange li a {
   border-radius: 6px;
   padding: 13px 15px;
 }
@@ -52,6 +57,11 @@ header {
 #button-hero {
   position: absolute;
   top:60%;
+}
+
+#button-offert li {
+  width:50%;
+  margin: 0 auto;
 }
 /* /BUTTONS */
 /* NAV 1 */
@@ -200,7 +210,6 @@ color: rgb(51, 71, 91);
   font-size: 18px;
   width: 50%;
   top: 35%;
-  line-height: 30px;
 }
 
 #span-hero {
@@ -223,23 +232,26 @@ color: rgb(51, 71, 91);
  #first-main {
    height:300vh;
    background-color: aliceblue;
-   width:100%;
+
  }
 
 /* div cube */
- .cube {
+ #cube {
    position: relative;
    height: 50vh;
+   margin:auto;
+   width: 90%;
  }
 
-.cube h2 {
+#cube h2 {
   position:relative;
+  width: 60%;
   top:75%;
   left:31%;
   font-size: 30px;
 }
 
-.cube img {
+#cube img {
   height:30vh;
   position:absolute;
   top:12%;
@@ -247,12 +259,157 @@ color: rgb(51, 71, 91);
   margin-bottom: 30px;
 }
 
-.cube p {
+#cube p {
   position: absolute;
   width: 60%;
-  line-height: 30px;
   text-align: center;
   left:18%;
   top:90%;
 }
+
 /* /div cube */
+
+/* div free-hubspot */
+
+#free-hubspot {
+  height: 45vh;
+  width:100%;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 80px;
+  box-shadow: 0px 0px 3px 2px #ccc;
+  margin-bottom: 70px;
+}
+
+#content-free-left {
+  display: inline-block;
+  position: relative;
+  height:100%;
+  width:30%;
+  float:left;
+}
+
+#content-free-left img {
+  position: absolute;
+  height: 13vh;
+  top: 20%;
+  left:30%;
+}
+
+#content-free-left ul li{
+  position: absolute;
+  top: 58%;
+  left:30%;
+}
+
+#content-free-right {
+  float: left;
+  padding:40px;
+}
+
+#content-free-right h2, #content-free-right h3 {
+  margin: 35px 0;
+}
+
+#content-free-right p {
+  width: 70%;
+  line-height: 30px;
+}
+
+#content-free-right h3 {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+#content-free-right hr {
+  display: inline-block;
+  width:50%;
+  vertical-align: middle;
+  margin-left: 60px;
+  border-color: lightgrey;
+
+}
+
+#content-free-right ul li {
+  display: inline-block;
+}
+
+.check li {
+ margin-right: 30px;
+}
+
+.check li i {
+ margin-right: 20px;
+ color: rgb(255, 122, 89);
+}
+/* /div free-hubspot */
+
+/* sezione offerte */
+#row-offert {
+ width:100%;
+}
+
+#box-offert-left, #box-offert-center, #box-offert-right {
+  border-radius: 8px;
+  box-shadow: 0px 0px 3px 2px #ccc;
+  background-color: white;
+  height: 90vh;
+  width:calc(88%/3);
+  float: left;
+}
+
+#box-offert-left, #box-offert-center {
+  margin-right:6%;
+}
+
+#box-offert-right {
+ margin-right: 0;
+}
+
+#box-offert-left img,
+#box-offert-center img,
+#box-offert-right img {
+  height: 14vh;
+  width:100%;
+  margin: 10% auto;
+}
+
+#box-offert-left h2,
+#box-offert-left h3,
+#box-offert-left p,
+#box-offert-center h2,
+#box-offert-center h3,
+#box-offert-center p,
+#box-offert-right h2,
+#box-offert-right h3,
+#box-offert-right p {
+ text-align: center;
+}
+
+#box-offert-left p,
+#box-offert-center p,
+#box-offert-right p {
+  margin: 10% auto;
+  width:62%;
+}
+
+#box-offert-left hr,
+#box-offert-center hr,
+#box-offert-right hr {
+  border-color: gray;
+  margin: 10% 10%;
+}
+
+#box-offert-left h3,
+#box-offert-center h3,
+#box-offert-right h3 {
+  text-transform: uppercase;
+}
+
+#box-offert-left ul,
+#box-offert-center ul,
+#box-offert-right ul {
+  margin: 10% 10%;
+}
+
+/* sezione offerte */
