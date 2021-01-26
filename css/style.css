@@ -32,6 +32,7 @@ header {
   height: 8vh;
   width: 100%;
 }
+
 #col-left-nav-1 {
   position: absolute;
   float:left;
@@ -120,5 +121,40 @@ color: rgb(51, 71, 91);
   border-radius: 6px;
   padding: 13px 15px;
 }
-
 /* /NAV 1 */
+/* NAV 2 */
+#nav-2 {
+  height: 8vh;
+  width:100%
+}
+
+#logo-hubspot {
+  position: relative;
+  top:20%;
+  float: left;
+  width:50%;
+}
+
+#link-right-nav-2  {
+  position: relative;
+  top:35%;
+  width:50%;
+  float:left;
+}
+
+#nav-2 ul {
+  margin-left: 55px;
+}
+
+#nav-2 ul li {
+  float: left;
+  margin-right:30px;
+}
+
+#nav-2 li i {
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+
+/*  /NAV 2 */
