@@ -90,7 +90,11 @@ p {
 .vertical-line,
 #search,
 #button-login,
-#button-nav-orange {
+#button-nav-orange,
+#count,
+#container-logos,
+#photo-operator,
+#text-start {
 float:left;
 }
 
@@ -446,7 +450,8 @@ font-size: 35px;
 }
 /* /testo */
 
-#row-1-gradient .box-number, #row-2-gradient .box-number {
+#row-1-gradient .box-number,
+#row-2-gradient .box-number {
   float:left;
 }
 
@@ -483,3 +488,86 @@ border-bottom: 1px solid white;
   vertical-align: middle;
 }
 /* /GRADIENT MAIN */
+
+/* SECTION LOGOS */
+
+/* customers */
+#container-customers {
+height:30vh;
+}
+
+#section-logos {
+  height: 95vh;
+  width: 100%;
+}
+
+#count {
+  height: 200px;
+  width:25%;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+#container-logos {
+  width: 65%;
+  padding-left: 20%;
+  margin-top: 6%;
+}
+
+#count h2 {
+  font-size: 50px;
+  margin: 5% auto;
+  width:60%;
+}
+
+#count p {
+  margin: 0 auto;
+  width: 60%;
+}
+
+#row-1-logos, #row-2-logos {
+  height:50px;
+  margin-bottom:30px;
+}
+
+#row-1-logos a img, #row-2-logos a img {
+  float: left;
+  width: 140px;
+  margin-right: 4%;
+}
+/* /customers */
+
+/* start offert */
+
+#container-start {
+  height: 70vh;
+}
+/* testo */
+
+#text-start {
+  width:35%;
+}
+
+#text-start h2 {
+  font-size: 40px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+#text-start ul li {
+  margin: 40px 0;
+}
+/* /testo */
+/* foto */
+#photo-operator {
+  float:right;
+}
+
+#photo-operator img {
+  height:600px;
+
+  padding-top:45px;
+}
+/* /foto */
+/* /start offert */
+/* /SECTION LOGOS */
