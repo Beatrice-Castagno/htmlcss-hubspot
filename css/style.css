@@ -444,10 +444,6 @@ border-bottom: 1px solid white;
   border-right: 1px solid white;
 }
 
-#row-2-gradient .box-number:not(.box-number:last-child); {
-  border-bottom: 1px solid white;
-}
-
 .box-number img {
   height: 50px;
   width:100%;
